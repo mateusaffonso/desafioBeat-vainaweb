@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 70vh;
+    background-color: #129799;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.header-top{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 47vw;
+    font-size: 4.3vh;
+    margin-top: 2vh;
+
+}
+
+h1{
+    font-size: 8vh;
+}
+
+.header-mid{
+    display: flex;
+    justify-content:center;
+    align-items:center
+}
+
+.image-header{
+    height: 55vh;
+    
+}
+
+.header-buttom{
+    width: 72vw;
+    height: 10vh;
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+    
+    
+}
+
+.header-buttom p{
+    background-color: none;
+    font-size: 4vh;
+}
+
+
+
+.top-main{
+    height: 30vh;
+    width: 70vw;
+    padding-left: 2vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 6vh;
+}
+
+.top-main p{
+    font-size: 3.5vh;
+    color: black;
+}
+
+.container-main{
+    height: 170vh;
+    background-color: #FFA185;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.main-images{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+.main-images img{
+    width: 48vw;
+    height: 48vh;
+    padding: 12px;
+
+}
+
+.more-contents{
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.more-contents p{
+    color: black;
+    font-weight: bold;
+    font-size: 2.2vw;
+    
+    
+}
+
+
+footer{
+    background-color: #129799;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.footer-icons{
+    width: 24vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 4vw;
+    
+
+
+}
+
+.footer-icons img{
+    width: 3vw;
+    height: 5.3vh;
+    
+    
+
+}
+
+.footer-nav ul{
+    width: 47vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 3vw;
+    font-size: 4.3vh;
+    
+
+}
+
